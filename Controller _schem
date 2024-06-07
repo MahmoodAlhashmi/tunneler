@@ -1,0 +1,40 @@
+Pin numbers go to esp 32 pinout
+
+LORA RFM95W
+  3.3v --> 3.3v
+  GND --> GND
+  RESET --> 14
+  NSS --> 5
+  SCK --> 18
+  MOSI --> 23
+  MISO --> 19
+
+OLED
+  VCC --> 3.3v
+  GND --> GND
+  SCL --> 21
+  SDA --> 22
+
+Joystick
+  VCC --> 3.3v
+  GND --> GND
+  x --> 35
+  y --> 34
+
+button 1
+  -- GND
+  -- D12
+
+button 2 
+  -- GND
+  -- D13
+
+TP4056
+  + -- Vin (place a switch between tp4056 + and Vin)
+  - -- GND
+  B+ --> battery +
+  B- --> battery -
+
+
+
+  
