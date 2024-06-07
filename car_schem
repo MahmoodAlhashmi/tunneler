@@ -1,0 +1,33 @@
+Connections to ESP32
+LORA RFM95W
+
+    3.3V --> 3.3V
+    GND --> GND
+    RESET --> 14
+    NSS --> 5
+    SCK --> 18
+    MOSI --> 23
+    MISO --> 19
+
+L298N Motor Driver
+
+    D0 --> 27
+    D1 --> 26
+    D2 --> 25
+    D3 --> 33
+
+Motors:
+
+    Motor Right --> Motor Driver
+    Motor Left --> Motor Driver
+
+Power:
+
+    Battery --> Motor Driver
+
+TP4056
+
+    + --> Vin (place a switch between TP4056 + and Vin)
+    - --> GND
+    B+ --> Battery +
+    B- --> Battery -
